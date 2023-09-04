@@ -29,6 +29,7 @@ extension ConferenceVideoSessionsViewController {
     func createLayout() -> UICollectionViewLayout {
         let sectionProvider = { (sectionIndex: Int,
             layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? in
+            
             let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
                                                  heightDimension: .fractionalHeight(1.0))
             let item = NSCollectionLayoutItem(layoutSize: itemSize)
